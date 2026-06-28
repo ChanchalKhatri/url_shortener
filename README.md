@@ -1,16 +1,42 @@
-# React + Vite
+# 🔗 URL Shortener
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern URL Shortener built with **React (Vite)** that converts long URLs into short links using the TinyURL API.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Shorten long URLs
+* Copy shortened links
+* Delete URL history
+* LocalStorage support
+* Responsive UI
+* Smooth animations
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React (Vite)
+* Tailwind CSS
+* Framer Motion
+* Lucide React
+* Axios
+* TinyURL API
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## 🔗 API Used
+
+```text
+https://tinyurl.com/api-create.php
+```
+
+## 💾 LocalStorage
+
+URL history is stored locally in the browser and remains available after page refresh.
+
+## 👨‍💻 Author
+
+Developed using React and Vite.
