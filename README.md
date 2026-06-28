@@ -37,6 +37,7 @@ https://tinyurl.com/api-create.php
 
 URL history is stored locally in the browser and remains available after page refresh.
 
-## 👨‍💻 Author
+📸 Screenshot
 
-Developed using React and Vite.
+![url_shortner](public/url_shortener.png)
+
